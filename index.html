@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Writer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="upper">
+        <a href="" id="home" class="uppers">Home</a>
+        <a href="" id="products" class="uppers">Products</a>
+        <a href="" id="about" class="uppers">About</a>
+        <a href="" id="contact" class="uppers">Contact</a><br>
+    </div>
+    <br><br>
+    <div id="forma">   
+        <form action="">   
+            <label for="name">Όνομα:</label>
+            <input type="text" id="name" autocomplete="on" class="inputs" placeholder="Γιώργος" required>
+            <label for="surname">Επίθετο:</label>
+            <input type="text" id="surname" autocomplete="on" class="inputs" placeholder="Μανολούδιος" required><br><br>
+            <label for="email">Email:</label>
+            <input type="text" id="email" autocomplete="on" class="inputs" placeholder="MyEmail@gmail.com" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" autocomplete="on" class="inputs" placeholder="Min 8 charachters" minlength="8"><br><br>
+            <input type="submit" id="submit" value="Submit" onclick="save()">
+        </form> 
+    </div>
+    <h1></h1>
+
+    <script src="index2.js"></script>
+</body>
+</html>

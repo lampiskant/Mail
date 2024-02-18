@@ -1,0 +1,56 @@
+/* General styling */
+body {
+    background-color: #333; /* Dark gray background */
+    color: #fff; /* White text */
+    font-family: Arial, sans-serif; /* Use Arial font or fallback to sans-serif */
+}
+
+/* Upper section styling */
+#upper {
+    background-color: #4c4c4c; /* Dark gray background */
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px; /* Add padding for better spacing */
+    margin-bottom: 20px; /* Add space between upper section and form */
+}
+
+.uppers {
+    font-size: 24px; /* Decrease font size for upper links */
+    margin-right: 10px; /* Add space between upper links */
+    text-decoration: none; /* Remove default underline */
+    color: #fff; /* White text color */
+}
+
+/* Form styling */
+#forma {
+    background-color: #666; /* Gray background */
+    border-radius: 20px; /* Rounded corners */
+    padding: 20px; /* Add padding for better spacing */
+}
+
+.inputs {
+    background-color: #999; /* Light gray background for inputs */
+    color: #000000; /* Black text color */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Add padding */
+    margin-bottom: 10px; /* Add space between inputs */
+}
+
+#submit {
+    background-color: #4CAF50; /* Green submit button */
+    color: #fff; /* White text color */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 20px;
+    cursor: pointer; /* ζShow pointer cursor on hover */
+    font-size: 16px; /* Font size */
+}
+
+#submit:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+h1 img{
+    max-width: 350px;
+    max-height: 350px;
+    padding: 10px 85px;     
+}
